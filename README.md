@@ -15,9 +15,9 @@
 2. Click "Add File," then choose "Create New File" from the dropdown.
 3. Name your file "_config.yml" -- make sure that the underscore is there!
 4. Put at least the below information in your configuation file:
-> title: Your title
-> email: Your email
-> theme: minima
+> title: Your title \
+> email: Your email\
+> theme: minima\
 5. Click "Commit Changes" button and type in a commit message that describes the edits you just made.
 6. Click "Commit Changes" on the pop-up.
 
