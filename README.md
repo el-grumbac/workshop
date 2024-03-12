@@ -31,15 +31,15 @@
 
 ## If you’d like to participate in the advanced hands-on version of this workshop, follow the below instructions to install all dependencies needed to spin up a Jekyll site.
 * Open up your command line tool:
-** for Mac, this is Terminal
-** for PC, this is Command Prompt.
+ for Mac, this is Terminal
+ for PC, this is Command Prompt.
   
 ### Check if Homebrew is installed. 
 * Type into the command line:
 
 > brew help.
 
-** If you do not get a response, copy/paste the below into the command line:
+  * If you do not get a response, copy/paste the below into the command line:
 
 > /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -47,7 +47,7 @@
 
 > ruby -v.
 
-** If you do not get a response, copy paste the below into the command line:
+  * If you do not get a response, copy paste the below into the command line:
 
 > brew install ruby
 
@@ -55,7 +55,7 @@
 
 > bundle help (type q to exit)
 
-** If you do not get a response, you might have an outdated version of Ruby installed:
+  * If you do not get a response, you might have an outdated version of Ruby installed:
 
 > brew upgrade ruby /
 > gem install bundler
