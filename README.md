@@ -1,4 +1,4 @@
-# Workshop March 2024
+
 
 ### Steps to setup repository in GitHub:
 1. Sign in to your account
@@ -66,3 +66,20 @@
 * For Windows: https://git-scm.com/download/windows
 
 Then you can follow the instructions [here] (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)to set up your SSH key in GitHub to connect your local repositories to GitHub.
+
+---
+
+## Installing and Running Jekyll on your local server
+
+1. Install all dependencies (see above section).
+2. Install Jekyll and Bundler
+> gem install jekyll bundler
+3. Navigate to the directory you wish to install your new Jekyll site
+> cd directory_name
+3. Create a new Jekyll site
+> jekyll new ENTER_SITE_NAME_HERE
+4. Change into your new directory
+> cd SITE_NAME
+5. Built the site and make it available on your local server
+> bundle exec jekyll serve
+6. Access your site at http://localhost:4000 
